@@ -1,0 +1,202 @@
+﻿@media only screen and (max-width: 979px) {
+     
+    Html{
+        Width:100%;
+    }
+ 
+} /*デバイスの横幅が979px以下の場合*/
+ 
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+     
+    Html{
+        Width:100%;
+    }
+ 
+} /*デバイスの横幅が321以上768以下の場合*/
+ 
+@media only screen and (max-width: 320px) {
+     
+    header{
+        Width:90%;
+    }
+ 
+} /* デバイスの横幅が320px以下の場合 */
+
+.bentonsansextracompressedblack {
+    font-family: "Benton Sans Ex Comp Bla";
+    font-style: Normal;
+    font-weight: Normal;
+}
+
+@keyframes zoomOut {
+    0% {
+        transform: scale(2.0);
+        -webkit-transform: scale(2.0);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+@-webkit-keyframes zoomOut {
+    0% {
+        transform: scale(2.0);
+        -webkit-transform: scale(2.0);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+@keyframes fadeOut {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@-moz-keyframes fadeOut {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@-webkit-keyframes fadeOut {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+.fadeOut {
+	-webkit-animation-name: fadeOut;
+	-moz-animation-name: fadeOut;
+	-o-animation-name: fadeOut;
+	animation-name: fadeOut;}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+.gif { 
+  width: 100%;  
+  height: 100%;
+  position: absolute; 
+  top: 0; left: 0;
+  -webkit-animation: fadeOut 9s infinite;
+  -moz-animation: fadeOut 9s infinite;
+  animation: fadeOut 9s infinite;
+}
+html { 
+  background: #550703; width:100%; height: 100%; overflow-x: hidden; overflow-y: hidden;
+}
+.wrapper { margin-top:10%; }
+.marvel { 
+  border: solid 1px #fff;
+  padding: 8px 4px 0 0;
+  animation: zoomOut 9s ease-in-out infinite;
+  -webkit-animation: zoomOut 9s ease-in-out infinite;
+  margin: auto auto;
+  text-align: center;
+  color: #fff; 
+  width: 570px; 
+  margin-top: 50px;  
+  font-size: 12em; 
+  line-height: .80;
+  font-family: "Benton Sans Ex Comp Bla", sans-serif; 
+}
+.studios { 
+  font-family: "Orbitron", sans-serif;
+  animation: zoomOut 9s ease-in-out infinite;
+  -webkit-animation: zoomOut 9s ease-in-out infinite ;
+  font-weight: bolder;
+  color: #fff;
+  letter-spacing: 67px;
+  text-align: center;
+  position: relative;
+  margin: 7px 15px 7px 85px;
+}
+body {     
+  background: #550703;
+}
