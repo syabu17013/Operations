@@ -37,7 +37,7 @@ body {
 	text-align:center;		/*IE6以下でセンタリングするための対策*/
 }
 div#pagebody {
-	width:1350px; margin:0 auto;	/*内容全体をセンタリング*/
+	width:450px; margin:0 auto;	/*内容全体をセンタリング*/
 	text-align:center;	/*テキストの配置を中央揃えにする*/
 	background-image:url("images/bg_pagebody.gif");	/*内容全体の背景*/
 	background-repeat:repeat-y;		/*背景画像を縦方向に繰り返す*/
@@ -136,9 +136,9 @@ address {
 	font-style:normal;			 /*フォントスタイルを標準にする*/
 	font-size:small;			 /*フォントサイズを小さくする*/
 	padding:5px 0px 5px 0px;		 /*要素内容の位置調整*/
-@media screen and (max-width:480px) {
+@media screen and (max-width:400px) {
 	table {
-		min-width: 480px;
+		min-width: 400px;
 	}
 	.table_wrap {
 		width: 100%;
