@@ -1,32 +1,9 @@
-﻿@charset "Shift_JIS";
-@media only screen and (max-width: 979px) {
-     
-    Html{
-        Width:100%;
-    }
- 
-} /*デバイスの横幅が979px以下の場合*/
- 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
-     
-    Html{
-        Width:100%;
-    }
- 
-} /*デバイスの横幅が321以上768以下の場合*/
- 
-@media only screen and (max-width: 320px) {
-     
-    header{
-        Width:90%;
-    }
- 
-} /* デバイスの横幅が320px以下の場合 */
 
 /*============================================
 全般的なスタイル
 ============================================*/
 * {
+	resizeimage img { width: 100%; }
 	margin:0; padding:0; 	/*全要素のマージン・パディングをリセット*/
 	line-height:2.0;	/*全要素の行の高さを1.5倍にする*/
 	color:#333333;		/*文字色*/
