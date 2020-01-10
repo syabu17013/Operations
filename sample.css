@@ -3,7 +3,7 @@
 全般的なスタイル
 ============================================*/
 * {
-	resizeimage img { width: 100%; }
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	margin:0; padding:0; 	/*全要素のマージン・パディングをリセット*/
 	line-height:2.0;	/*全要素の行の高さを1.5倍にする*/
 	color:#333333;		/*文字色*/
