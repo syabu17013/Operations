@@ -74,7 +74,7 @@ ul.topnav li {
 }
 ul.topnav li a {
 	display: block;
-	padding: 35px 50px;
+	padding: 20px 35px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -105,7 +105,7 @@ div#content {
 ニュース（中央カラム）
 ============================================*/
 div#news {
-	width:480px; margin-right:200px; padding-top:100px; /*幅の指定と位置調整*/
+	width:480px; margin-right:380x; padding-top:100px; /*幅の指定と位置調整*/
 	float:center;					/*カラムを中央にする*/
 	background-image:url("images/bar_news.gif");	/*中央カラムの背景画像*/
 	background-repeat:no-repeat;			/*背景画像を繰り返さない*/
